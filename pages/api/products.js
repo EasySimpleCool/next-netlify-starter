@@ -1,5 +1,4 @@
 import { postToShopify } from "util/shopify";
-import {} from ".//.//util/shopify";
 
 export default async function handler(_req, res) {
   const data = await postToShopify({
