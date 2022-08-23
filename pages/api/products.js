@@ -7,6 +7,7 @@ export default async function handler(_req, res) {
           edges {
             node {
               id
+                      handle
               title
               priceRange {
                 maxVariantPrice {
